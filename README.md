@@ -112,7 +112,7 @@ streamlit run app.py
 3️⃣ Open the app in your browser
 
 ```
-http://localhost:8501
+http://localhost:8503
 ```
 
 ### ✨ Features of the Application
