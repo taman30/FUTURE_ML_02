@@ -95,27 +95,50 @@ This project includes a **Streamlit web application** that allows users to inter
 
 The application is **not deployed online**, but it can easily be run locally on your machine.
 
-### 🚀 Steps to Run the Application
+---
 
-1️⃣ Install the required dependencies
+## 🚀 Steps to Run the Application
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/taman30/FUTURE_ML_02.git
+cd FUTURE_ML_02
+```
+
+### 2️⃣ Install the required dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-2️⃣ Start the Streamlit application
+### 3️⃣ Start the Streamlit application
 
 ```
 streamlit run app.py
 ```
 
-3️⃣ Open the app in your browser
+### 4️⃣ Wait for Streamlit to start
+
+After running the command, the terminal will show something like:
+
+```
+You can now view your Streamlit app in your browser.
+
+Local URL: http://localhost:8503
+```
+
+### 5️⃣ Open the app in your browser
+
+Copy and paste the **Local URL** shown in the terminal into your browser:
 
 ```
 http://localhost:8503
 ```
 
-### ✨ Features of the Application
+---
+
+## ✨ Features of the Application
 
 🔹 Classifies support tickets into categories  
 🔹 Predicts ticket priority levels  
