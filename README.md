@@ -123,6 +123,7 @@ streamlit run app.py
 After running the command, the terminal will show something like:
 
 ```
+for example:
 You can now view your Streamlit app in your browser.
 
 Local URL: http://localhost:8501
@@ -133,7 +134,7 @@ Local URL: http://localhost:8501
 Copy and paste the **Local URL** shown in the terminal into your browser:
 
 ```
- http://localhost:8501
+for example: http://localhost:8501
 ```
 
 ---
