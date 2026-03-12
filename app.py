@@ -49,7 +49,15 @@ vectorizer = pickle.load(open("tfidf_vectorizer.pkl","rb"))
 # Load Dataset (for dashboard)
 # -----------------------------
 
-df = pd.read_csv("customer_support_tickets.csv")
+# -----------------------------
+# Load Dataset (for dashboard)
+# -----------------------------
+
+try:
+    df = pd.read_csv("customer_support_tickets.csv")
+except Exception as e:
+    st.warning("Dataset could not be loaded. Dashboard will be disabled.")
+    df = None
 
 # -----------------------------
 # Sidebar Navigation
